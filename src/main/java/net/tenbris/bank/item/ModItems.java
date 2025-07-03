@@ -15,6 +15,18 @@ public class ModItems {
     public static final DeferredItem<Item> FIVE_CENT = ITEMS.register("five_cent",
             ()-> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> TWENTYFIVE_CENT = ITEMS.register("twentyfive_cent",
+            ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> FIFTY_CENT = ITEMS.register("fifty_cent",
+            ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> SINGLE_BILL = ITEMS.register("single_bill",
+            ()-> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> STACK_BILL = ITEMS.register("stack_bill",
+            ()-> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

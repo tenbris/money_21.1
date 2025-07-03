@@ -1,4 +1,8 @@
 {
   "item.tenbris_bank.one_cent" : "One Cent",
-  "item.tenbris_bank.five_cent" : "Five Cent"
+  "item.tenbris_bank.five_cent" : "Five Cent",
+  "item.tenbris_bank.twentyfive_cent" : "Twenty Five Cent",
+  "item.tenbris_bank.fifty_cent" : "Fifty Cent",
+  "item.tenbris_bank.single_bill" : "one bill",
+  "item.tenbris_bank.stack_bill" : "stack of bill (9)"
 }
