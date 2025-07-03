@@ -1,5 +1,6 @@
 package net.tenbris.bank;
 
+import net.tenbris.bank.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -50,6 +51,8 @@ public class Tenbris_Bank {
 
         NeoForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -63,8 +66,9 @@ public class Tenbris_Bank {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ONE_CENT);
+            event.accept(ModItems.FIVE_CENT);
         }
     }
 
