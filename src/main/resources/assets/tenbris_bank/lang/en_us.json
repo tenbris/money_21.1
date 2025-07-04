@@ -1,8 +1,13 @@
 {
-  "item.tenbris_bank.one_cent" : "One Cent",
-  "item.tenbris_bank.five_cent" : "Five Cent",
-  "item.tenbris_bank.twentyfive_cent" : "Twenty Five Cent",
-  "item.tenbris_bank.fifty_cent" : "Fifty Cent",
+  "item.tenbris_bank.one_cent" : "Penny",
+  "item.tenbris_bank.five_cent" : "Nickel",
+  "item.tenbris_bank.twentyfive_cent" : "Quarter",
+  "item.tenbris_bank.fifty_cent" : "Half Dollar",
   "item.tenbris_bank.single_bill" : "one bill",
-  "item.tenbris_bank.stack_bill" : "stack of bill (9)"
+  "item.tenbris_bank.stack_bill" : "stack of bills",
+
+  "block.tenbris_bank.emerald_brick" : "Emerald Bricks",
+
+  "creativetabs.tenbris_bank.money_items": "Money Items",
+  "creativetab.tenbris_bank.money_blocks": "Money Blocks"
 }

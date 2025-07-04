@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category" : "misc",
+  "ingredients": [
+    {
+      "item": "tenbris_bank:fifty_cent"
+    },
+    {
+      "item": "tenbris_bank:fifty_cent"
+    }
+  ],
+  "result": {
+    "id": "tenbris_bank:single_bill",
+    "count": 1
+  }
+}

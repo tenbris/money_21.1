@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key": {
+    "B" : {
+      "item" : "tenbris_bank:single_bill"
+    }
+  },
+  "pattern" :  [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "result": {
+    "id": "tenbris_bank:stack_bill",
+    "count": 1
+  }
+}

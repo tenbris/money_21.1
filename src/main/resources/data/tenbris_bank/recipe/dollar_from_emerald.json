@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category" : "misc",
+  "key": {
+    "E" : {
+      "item" : "minecraft:emerald"
+    },
+    "P" : {
+      "item" : "minecraft:paper"
+    }
+  },
+  "pattern" :  [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "result": {
+    "id": "tenbris_bank:single_bill",
+    "count": 8
+  }
+}

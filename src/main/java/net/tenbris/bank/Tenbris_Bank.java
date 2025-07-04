@@ -1,6 +1,7 @@
 package net.tenbris.bank;
 
 import net.tenbris.bank.block.ModBlocks;
+import net.tenbris.bank.item.ModCreativeModeTabs;
 import net.tenbris.bank.item.ModItems;
 import org.slf4j.Logger;
 
@@ -54,6 +55,7 @@ public class Tenbris_Bank {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -69,11 +71,6 @@ public class Tenbris_Bank {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ONE_CENT);
-            event.accept(ModItems.FIVE_CENT);
-            event.accept(ModItems.TWENTYFIVE_CENT);
-            event.accept(ModItems.FIFTY_CENT);
-            event.accept(ModItems.SINGLE_BILL);
         }
     }
 
