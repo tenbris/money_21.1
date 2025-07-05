@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tenbris_bank:dollar_to_half"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "single_bill": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tenbris_bank:single_bill"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "single_bill"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tenbris_bank:dollar_to_half"
+    ]
+  }
+}

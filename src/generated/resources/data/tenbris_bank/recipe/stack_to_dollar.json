@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tenbris_bank:stack_bill"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tenbris_bank:single_bill"
+  }
+}

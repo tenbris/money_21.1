@@ -18,7 +18,7 @@ public class ModBlocks {
 
     public final static DeferredBlock<Block> EMERALD_BRICK = registerBlock("emerald_brick",
             () -> new Block(BlockBehaviour.Properties.of()
-            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

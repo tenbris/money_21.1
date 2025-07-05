@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "five_cents": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tenbris_bank:one_cent"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tenbris_bank:one_from_five"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "five_cents"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tenbris_bank:one_from_five"
+    ]
+  }
+}

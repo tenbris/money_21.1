@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    },
+    {
+      "item": "tenbris_bank:single_bill"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tenbris_bank:stack_bill"
+  }
+}
