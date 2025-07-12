@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 8400,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "tenbris_bank:hard_tack_dough"
+  },
+  "result": {
+    "count": 1,
+    "id": "tenbris_bank:hard_tack"
+  }
+}

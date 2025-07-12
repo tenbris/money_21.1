@@ -9,6 +9,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.tenbris.bank.Tenbris_Bank;
+import net.tenbris.bank.block.custom.BankBlock;
 import net.tenbris.bank.item.ModItems;
 
 import java.util.function.Supplier;
@@ -19,6 +20,10 @@ public class ModBlocks {
     public final static DeferredBlock<Block> EMERALD_BRICK = registerBlock("emerald_brick",
             () -> new Block(BlockBehaviour.Properties.of()
             .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public final static DeferredBlock<Block> BANK = registerBlock("bank",
+            ()-> new BankBlock(BlockBehaviour.Properties.of()
+            .strength(4f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

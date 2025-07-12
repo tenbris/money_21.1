@@ -1,4 +1,7 @@
-// 1.21.1	2025-07-05T11:20:02.7805461	Block States: tenbris_bank
+// 1.21.1	2025-07-12T18:34:02.4550684	Block States: tenbris_bank
+2d9c279d1e53a93e025c0e93557512930a54eb20 assets/tenbris_bank/blockstates/bank.json
 1af1d86ab0f251a1c7f84bd552cab0025b029e65 assets/tenbris_bank/blockstates/emerald_brick.json
+8053f330f7520208b8c536c3359287cf96eea23f assets/tenbris_bank/models/block/bank.json
 255b8ab159b49b9ebd197862e491e94d04d636b9 assets/tenbris_bank/models/block/emerald_brick.json
+92b35ed4563747a6d7e1a774335cbb0fc1ee55b9 assets/tenbris_bank/models/item/bank.json
 cec37fd091f137f16ba963b5afbe365aa7db20c6 assets/tenbris_bank/models/item/emerald_brick.json

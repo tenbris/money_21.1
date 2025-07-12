@@ -5,9 +5,17 @@
   "item.tenbris_bank.fifty_cent" : "Half Dollar",
   "item.tenbris_bank.single_bill" : "one bill",
   "item.tenbris_bank.stack_bill" : "stack of bills",
+  "item.tenbris_bank.thunder_bringer" : "Thunder Bringer",
+  "item.tenbris_bank.hard_tack_dough" : "Hard Tack Dough",
+
+  "item.tenbris_bank.hard_tack" : "Hard Tack",
 
   "block.tenbris_bank.emerald_brick" : "Emerald Bricks",
+  "block.tenbris_bank.bank" : "Bank",
 
   "creativetabs.tenbris_bank.money_items": "Money Items",
-  "creativetab.tenbris_bank.money_blocks": "Money Blocks"
+  "creativetab.tenbris_bank.money_blocks": "Money Blocks",
+
+  "tooltip.tenbris_bank.bank_block": "turns one emerald into eight bills",
+  "tooltip.tenbris_bank.thunder_bringer": "§e§oTHE THUNDER BRINGER§r"
 }

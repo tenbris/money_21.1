@@ -19,6 +19,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.FIFTY_CENT.get());
         basicItem(ModItems.SINGLE_BILL.get());
         basicItem(ModItems.STACK_BILL.get());
+        basicItem(ModItems.THUNDER_BRINGER.get());
+        basicItem(ModItems.HARD_TACK.get());
+        basicItem(ModItems.HARD_TACK_DOUGH.get());
 
     }
 }

@@ -1,7 +1,10 @@
-// 1.21.1	2025-07-05T11:20:02.7795434	Item Models: tenbris_bank
+// 1.21.1	2025-07-12T19:44:54.0522868	Item Models: tenbris_bank
 48f5eb964b989242ed57268545a63ec707bf3115 assets/tenbris_bank/models/item/fifty_cent.json
 75165e437caad6c96bd38ebdb202406d1d79352d assets/tenbris_bank/models/item/five_cent.json
+b7fb93aa638857261093c7464aec074a9ed88fdc assets/tenbris_bank/models/item/hard_tack.json
+6b3b500ab6c462daecc630b7ad4d9f7d679cd8e1 assets/tenbris_bank/models/item/hard_tack_dough.json
 6f978bbcbc75b76b21180694b2f347aff49d1230 assets/tenbris_bank/models/item/one_cent.json
 f0276633032c2f968c2a0a618a2ba4f43909bc95 assets/tenbris_bank/models/item/single_bill.json
 7d3f089398fe7f8c1b09311a24fb944c2241bcdc assets/tenbris_bank/models/item/stack_bill.json
+88af196e1887e9b7ed742805dcf8040d6d6d0240 assets/tenbris_bank/models/item/thunder_bringer.json
 56f81efea4ab95b2b129b2da91b2c4f3538c6aa3 assets/tenbris_bank/models/item/twentyfive_cent.json

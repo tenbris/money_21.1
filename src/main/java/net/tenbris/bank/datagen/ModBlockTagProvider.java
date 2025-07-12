@@ -20,10 +20,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.EMERALD_BRICK.get()
-                );
+                .add(ModBlocks.EMERALD_BRICK.get())
+                .add(ModBlocks.BANK.get())
+
+        ;
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.EMERALD_BRICK.get()
-                );
+                .add(ModBlocks.EMERALD_BRICK.get())
+                .add(ModBlocks.BANK.get())
+        ;
     }
 }

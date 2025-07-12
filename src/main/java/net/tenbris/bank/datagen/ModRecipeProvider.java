@@ -7,9 +7,7 @@ import net.minecraft.world.entity.vehicle.Minecart;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.MinecartItem;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.crafting.SingleItemRecipe;
-import net.minecraft.world.item.crafting.StonecutterRecipe;
+import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -81,6 +79,31 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         stoneCutting(Blocks.EMERALD_BLOCK,RecipeCategory.MISC,ModBlocks.EMERALD_BRICK,1, "has_emerald_block", "emerald_bricks", recipeOutput);
         stoneCutting(ModBlocks.EMERALD_BRICK,RecipeCategory.MISC,Blocks.EMERALD_BLOCK,1, "has_emerald_brick", "emerald_block_from_brick", recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC,ModItems.HARD_TACK_DOUGH)
+                .requires(Items.BREAD)
+                .requires(Items.MILK_BUCKET)
+                .requires(Items.WATER_BUCKET)
+                .unlockedBy("twenty_five_cents", has(ModItems.TWENTYFIVE_CENT)).save(recipeOutput);
+
+        SimpleCookingRecipeBuilder.smelting(
+                        Ingredient.of(ModItems.HARD_TACK_DOUGH.get()),
+                        RecipeCategory.MISC,
+                        ModItems.HARD_TACK.get(),
+                        0.1f,
+                        8400
+                )
+                .unlockedBy("hard_tack_dough", has(ModItems.HARD_TACK_DOUGH))
+                .save(recipeOutput,"hard_tack_smelting");
+        SimpleCookingRecipeBuilder.campfireCooking(
+            Ingredient.of(ModItems.HARD_TACK_DOUGH.get()),
+            RecipeCategory.MISC,
+            ModItems.HARD_TACK.get(),
+                0.1f,
+                8400
+        )
+                .unlockedBy("hard_tack_dough", has(ModItems.HARD_TACK_DOUGH))
+                .save(recipeOutput, "hard_tack_campfire");
 
         super.buildRecipes(recipeOutput);
     }

@@ -27,6 +27,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.FIFTY_CENT);
                         output.accept(ModItems.SINGLE_BILL);
                         output.accept(ModItems.STACK_BILL);
+                        output.accept(ModItems.THUNDER_BRINGER);
+                        output.accept(ModItems.HARD_TACK);
+                        output.accept(ModItems.HARD_TACK_DOUGH);
                     })
                     .build());
     public static final Supplier<CreativeModeTab> MONEY_BLOCK = CREATIVE_MODE_TAB.register("money_blocks",
@@ -35,6 +38,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.tenbris_bank.money_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.EMERALD_BRICK);
+                        output.accept(ModBlocks.BANK);
 
                     }).build());
 

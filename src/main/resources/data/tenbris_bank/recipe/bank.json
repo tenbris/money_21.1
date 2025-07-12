@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "minecraft:emerald_block"
+    },
+    "B": {
+      "item": "tenbris_bank:single_bill"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BEB",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tenbris_bank:bank"
+  }
+}
